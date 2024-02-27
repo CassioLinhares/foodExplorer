@@ -11,7 +11,7 @@ const cors = require("cors")
 const app = express();
 app.use(cookieParser());
 app.use(cors({
-    origin: "*",
+    origin: "https://foodexplorers2.netlify.app",
     credentials: true
 }));
 app.use(express.json());
